@@ -1,0 +1,12 @@
+Source: ros-noetic-gazebo-model-attachment-plugin
+Section: misc
+Priority: optional
+Maintainer: Boeing <Jason.Cochrane@boeing.com>
+Build-Depends: debhelper (>= 9.0.0), gazebo11, ros-noetic-catkin, ros-noetic-gazebo-msgs, ros-noetic-gazebo-ros, ros-noetic-message-generation, ros-noetic-roscpp, ros-noetic-rostest <!nocheck>
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-noetic-gazebo-model-attachment-plugin
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, gazebo11, ros-noetic-gazebo-msgs, ros-noetic-gazebo-ros, ros-noetic-message-generation, ros-noetic-message-runtime, ros-noetic-roscpp, ros-noetic-rospy
+Description: Model Attachment Plugin
