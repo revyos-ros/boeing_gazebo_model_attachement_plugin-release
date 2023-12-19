@@ -21,30 +21,20 @@
 ## Installation
 
 ### Dependencies
+Due to this [change](https://github.com/ros2/rosidl_python/pull/131) in rosidl_python currently you can not build a package that both generates interfaces and installs a Python package. While we are waiting for the fix to be merged you must build the following branch of rosidl_python locally.
 
-- None
+- [rosidl_python - fix-141](https://github.com/knorth55/rosidl_python/tree/fix-141)
 
-### Installation from Packages
-
-*PENDING APPROVAL ON ROS_DISTRO*
-
-To install all packages from this repository as Debian packages use
-
-    sudo apt-get install ros-noetic-boeing-gazebo-model-attachment-plugin
-    
-Or better, use `rosdep`:
-
-	sudo rosdep install --from-paths src
 
 #### Building
 
-To build from source, clone the latest version from this repository into your ros workspace and compile the package using catkin
+To build from source, clone the latest version from this repository into your ros workspace and compile the package using colcon
 
 	cd ros_ws/src
 	git clone https://github.com/boeing/gazebo_model_attachment_plugin.git
 	cd ../
 	rosdep install --from-paths . --ignore-src
-	catkin make
+	colcon build
 
 ## Usage
 
@@ -81,7 +71,7 @@ Run Gazebo
 
 	Creates a joint between two links
 
-		ros service call /gazebo_model_attachment_plugin/attach
+		ros2 service call /gazebo_model_attachment_plugin/attach
 
   ##### Parameters
 
@@ -135,7 +125,7 @@ The Boeing Company
 
 # License
 
-The Config File Validator is released under the Apache 2.0 License
+This package is released under the Apache 2.0 License
 
 # Contributing
 
