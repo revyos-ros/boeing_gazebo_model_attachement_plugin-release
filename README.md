@@ -1,3 +1,28 @@
+## gazebo_model_attachment_plugin (humble) - 1.0.3-3
+
+The packages in the `gazebo_model_attachment_plugin` repository were released into the `humble` distro by running `/home/z572/gits/revyos-ros/venv/bin/bloom-release -r humble gazebo_model_attachment_plugin --override-release-repository-push-url git@github.com:revyos-ros/boeing_gazebo_model_attachement_plugin-release` on `Mon, 02 Sep 2024 05:17:13 -0000`
+
+These packages were released:
+- `gazebo_model_attachment_plugin`
+- `gazebo_model_attachment_plugin_msgs`
+
+Version of package(s) in repository `gazebo_model_attachment_plugin`:
+
+- upstream repository: https://github.com/Boeing/gazebo_model_attachment_plugin.git
+- release repository: https://github.com/revyos-ros/boeing_gazebo_model_attachement_plugin-release.git
+- rosdistro version: `1.0.3-2`
+- old version: `1.0.3-2`
+- new version: `1.0.3-3`
+
+Versions of tools used:
+
+- bloom version: `0.12.0`
+- catkin_pkg version: `1.0.0`
+- rosdep version: `0.22.2`
+- rosdistro version: `0.9.0`
+- vcstools version: `0.1.42`
+
+
 ## boeing_gazebo_model_attachment_plugin (noetic) - 1.0.2-5
 
 The packages in the `boeing_gazebo_model_attachment_plugin` repository were released into the `noetic` distro by running `/usr/bin/bloom-release --new-track --rosdistro noetic --track noetic boeing_gazebo_model_attachment_plugin` on `Tue, 19 Dec 2023 22:50:51 -0000`
